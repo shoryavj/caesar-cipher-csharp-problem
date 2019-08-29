@@ -4,9 +4,9 @@ notifications:
   email:
     on_success: always
     on_failure: always
-  slack: srboeingdotnet:pZz5KfrgntyjLpS9a1d2b1rH
+  slack: cgiwave8-net:BhGyv81KmlXeXL9ViKva7vMQ
 mono: none
-dotnet: 2.1
+dotnet: 2.2
 script:
   - dotnet restore
   - dotnet test CaesarCipher.Tests
