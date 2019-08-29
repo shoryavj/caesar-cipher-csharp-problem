@@ -9,5 +9,8 @@ namespace CaesarCipher
         {
             throw new NotImplementedException("You need to implement this function.");
         }
+        public static void Main(string[] args){
+            
+        }
     }
 }
